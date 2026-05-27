@@ -50,7 +50,7 @@ export const navLinks = [
 export const stats = [
   { label: 'Projects Completed', value: 5, suffix: '' },
   { label: 'Technologies', value: 15, suffix: '+' },
-  { label: 'GitHub Contributions', value: 138, suffix: '+' },
+  { label: 'GitHub Contributions', value: 140, suffix: '+' },
   { label: 'CGPA B.Tech', value: 8.4, suffix: '/10' },
 ];
 
