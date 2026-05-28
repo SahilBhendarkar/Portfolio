@@ -294,9 +294,60 @@ export const achievementStats = [
   { label: 'Git Repos', value: 10, icon: '⭐' },
 ];
 
+/* ─────────────── Certifications ─────────────── */
+export const certifications = [
+  {
+    id: 1,
+    title: 'Applied Cloud Computing for Software Development',
+    issuer: 'Microsoft TechSaksham, SAP & Edunet Foundation',
+    description:
+      'Completed certification program focused on cloud computing concepts, software development practices, and modern industry workflows.',
+    icon: 'microsoft',
+    color: '#2563eb',
+    tech: ['Cloud Computing', 'Software Development', 'Microsoft', 'SAP'],
+    credentialUrl: '/Edunet_certificate.jpg',
+  },
+  {
+    id: 2,
+    title: 'Industrial Java Training',
+    issuer: 'Asterisc Computer Institute',
+    description:
+      'Completed Industrial Java Training program with hands-on development experience in Java programming and backend application development.',
+    icon: 'java',
+    color: '#f97316',
+    tech: ['Java', 'OOP', 'Backend Development', 'Spring Boot'],
+    credentialUrl: '/Industrial Training - JAVA.pdf',
+  },
+  {
+    id: 3,
+    title: 'Software Development Internship Certificate',
+    issuer: 'Asterisc Technocrat Pvt. Ltd.',
+    description:
+      'Recognized for exemplary performance during internship in software development and practical project implementation.',
+    icon: 'certificate',
+    color: '#8b5cf6',
+    tech: ['Internship', 'Software Development', 'REST APIs', 'MySQL'],
+    credentialUrl: '/Internship Certificate-Sahil_Bhendarkar.pdf',
+  },
+  /* 
+  To add your custom certificates, uncomment and populate the template below:
+  {
+    id: 4,
+    title: 'Your Certificate Title',
+    issuer: 'Issuing Organization / platform',
+    description: 'A brief description of what you learned or achieved in this certification.',
+    icon: 'certificate', // Available icons: 'certificate', 'microsoft', 'java', 'sap'
+    color: '#3b82f6', // Hex color code for gradient
+    tech: ['Technology 1', 'Technology 2'],
+    credentialUrl: 'https://link-to-your-certificate.com',
+  },
+  */
+];
+
 /* ─────────────── EmailJS Config (Replace with your own) ─────────────── */
 export const emailjsConfig = {
   serviceId: 'YOUR_EMAILJS_SERVICE_ID',
   templateId: 'YOUR_EMAILJS_TEMPLATE_ID',
   publicKey: 'YOUR_EMAILJS_PUBLIC_KEY',
 };
+

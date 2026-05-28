@@ -12,6 +12,7 @@ import Experience from './sections/Experience';
 import Achievements from './sections/Achievements';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
+import Certifications from './sections/Certifications';
 
 export const App = () => {
   const [loading, setLoading] = useState(true);
@@ -46,6 +47,7 @@ export const App = () => {
             <Hero />
             <About />
             <Skills />
+            <Certifications/>
             <Projects />
             <Experience />
             <Achievements />
