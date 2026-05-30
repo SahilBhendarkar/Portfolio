@@ -1,8 +1,23 @@
 import {
-  FaJava, FaReact, FaHtml5, FaCss3Alt, FaGitAlt, FaGithub,
-  FaLinkedin, FaTwitter, FaEnvelope, FaDatabase, FaServer,
-  FaCode, FaTools, FaMobileAlt, FaRoute, FaAward, FaCalendarAlt,
-  FaMapMarkerAlt
+  FaJava,
+  FaReact,
+  FaHtml5,
+  FaCss3Alt,
+  FaGitAlt,
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+  FaEnvelope,
+  FaDatabase,
+  FaServer,
+  FaCode,
+  FaTools,
+  FaMobileAlt,
+  FaRoute,
+  FaAward,
+  FaCalendarAlt,
+  FaMapMarkerAlt,
+  FaCloud
 } from 'react-icons/fa';
 import {
   SiSpringboot, SiHibernate, SiMysql, SiJavascript,
@@ -50,7 +65,7 @@ export const navLinks = [
 export const stats = [
   { label: 'Projects Completed', value: 5, suffix: '' },
   { label: 'Technologies', value: 15, suffix: '+' },
-  { label: 'GitHub Contributions', value: 140, suffix: '+' },
+  { label: 'GitHub Contributions', value: 145, suffix: '+' },
   { label: 'CGPA B.Tech', value: 8.4, suffix: '/10' },
 ];
 
@@ -104,6 +119,8 @@ export const skillCategories = [
       { name: 'Postman', icon: SiPostman, level: 85, color: '#FF6C37' },
       { name: 'Maven', icon: SiApachemaven, level: 80, color: '#C71A36' },
       { name: 'Netlify', icon: SiNetlify, level: 85, color: '#00C4B6' },
+      { name: 'Render', icon: FaCloud, level: 85, color: '#46E3B7' },
+      { name: 'Aiven', icon: FaDatabase, level: 80, color: '#FF6B6B' },
       { name: 'IntelliJ IDEA', icon: SiIntellijidea, level: 90, color: '#FC801D' },
       { name: 'Eclipse IDE', icon: SiEclipseide, level: 80, color: '#2C2255' },
       { name: 'VS Code', icon: FaCode, level: 90, color: '#007ACC' },
@@ -128,7 +145,7 @@ export const projects = [
       'REST API Integration',
     ],
     liveUrl: 'https://hospital-management-appp.netlify.app',
-    githubUrl: 'https://github.com/SahilBhendarkar/hospital-management',
+    githubUrl: 'https://github.com/SahilBhendarkar/Hospital-Management-Frontend',
     category: 'Full Stack Web',
     color: '#6366f1',
   },
@@ -146,7 +163,7 @@ export const projects = [
       'Real-Time Data Handling',
     ],
     liveUrl: '#',
-    githubUrl: 'https://github.com/SahilBhendarkar',
+    githubUrl: 'https://github.com/SahilBhendarkar/Hospital-Native',
     category: 'Cross-Platform Mobile',
     color: '#3b82f6',
   },
@@ -164,7 +181,7 @@ export const projects = [
       'SEO Optimization',
     ],
     liveUrl: '#',
-    githubUrl: 'https://github.com/SahilBhendarkar',
+    githubUrl: 'https://github.com/SahilBhendarkar/MediOptiSOS',
     category: 'Location-Based Web',
     color: '#8b5cf6',
   },
@@ -289,7 +306,7 @@ export const achievements = [
 
 export const achievementStats = [
   { label: 'B.Tech CGPA', value: 8.44, icon: '🎓' },
-  { label: 'Projects Built', value: 6, icon: '🚀' },
+  { label: 'Projects Built', value: 5, icon: '🚀' },
   { label: 'Agile Months', value: 9, icon: '📅' },
   { label: 'Git Repos', value: 10, icon: '⭐' },
 ];
